@@ -1,0 +1,110 @@
+html {
+  font-size: clamp(1rem, calc(0.7rem + 1vw), 1.625rem);
+}
+
+header{
+  text-align: center;
+  font-size: 1.3rem;
+}
+header li{
+  margin-top: 2vw;
+}
+header a.normal{
+  color: #FBBC05;
+}
+  header a.amarelo{
+  background-color: #FBBC05;
+  border-radius: 0.4rem;
+  color: white;
+  padding: 2vw 4vw;
+}
+.banner{
+  background: url(../images/background-banner.png) no-repeat;
+  background-size: 100% auto;
+  padding: 3vw 5vw;
+  margin: 2vw 0;
+}
+.banner div.img{
+  display: none;
+}
+.banner h1{
+  font-size: 2rem;
+}
+.banner p{
+  color: rgb(95, 95, 95);
+  font-size: 0.9rem;
+  margin-top: 14px;
+}
+.banner a{
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  padding: 4px 10px;
+}
+.banner p.button{
+  display: flex;
+  gap: 10px;
+}
+.banner p.button img{
+  height: 50%;
+}
+.tudo {
+  display: flex;
+  justify-content: space-between;
+}
+.cima {
+  display: flex;
+}
+.ready li{
+  padding: 150px;
+}
+.download{
+  display: flex;
+  background-color: #FBBC05;
+  border-radius: 50px;
+  margin: 120px;
+}
+.download .img{
+  display: flex;
+}
+
+
+
+
+@media only screen and (min-width: 600px){
+  header{
+    padding: 2vw 5vw;
+  }
+  header nav{
+    display: flex;
+    justify-content: space-between;
+  }
+  header ul{
+    display: flex;
+    text-align: center;
+    gap: 3vw;
+  }
+  header a.normal{
+    color: #FBBC05;
+  }
+  header a.amarelo{
+    background-color: #FBBC05;
+    border-radius: 0.7rem;
+    color: white;
+    padding: 1vw 2vw;
+  }
+  .banner{
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  .banner div.img{
+    display: block;
+      text-align: right;
+  }
+  .banner img{
+    height: 70%;
+  }
+}
